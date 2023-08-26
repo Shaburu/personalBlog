@@ -476,9 +476,12 @@ a:hover {
     font-size: 25px;
   }
   
-  .blogBodyContent >img{
-     max-width: var(--content-gap);
+  .contentImg{
+      width: 100%;
     }
+  .titleImg{
+    width: 150px;
+  }
     
   }
 
@@ -530,7 +533,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  font-size: 17px;
 }
 
 .blogBodyContent >h2{
@@ -540,4 +543,16 @@ a:hover {
 
 .blogBodyContent >img{
   max-width: calc(var(--main-width) + var(--gap) * 2);
+}
+
+.keyWords{
+  padding: 1em 0em;
+  font-size: small;
+  color: var(--htbgrey);
+  font-weight: 600;
+  
+  text-decoration-thickness: 0.05em;
+  text-decoration-line: underline;
+  text-decoration-style:wavy;
+  text-decoration-color: var(--htbgrey);
 }
