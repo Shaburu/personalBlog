@@ -28,6 +28,17 @@ export const Home = () => {
         also a lot of stupid projects along the way! like my Annoyinator&#8482; (coming soon)
         which let's you sign up any email to 1287 Newsletters 
         <sup>  &#9834;doofenshmirtz evil incorporated&#9835;</sup>
+          {/* <div className="designStack">
+            Design Stack
+            <div className="designStackChild">
+            <div >PhotoShop</div>
+            <div >Premiere Pro</div>
+            <div >After Effects</div>
+            <div >Adobe</div>
+            <div >Adobe</div>
+         
+            </div>
+         </div> */}
         </div>
 
  <div className="item2">
@@ -39,7 +50,6 @@ export const Home = () => {
   <div>PyTorch&#10024;</div>
   <div>Three.Js<br/></div>
   <div>Unity<br/></div>
-  
  </div>
       </div>
         
@@ -55,7 +65,7 @@ export const Home = () => {
     
         <Link to="/blog/computervision">
         <div>
-          <img src="\mushHabitat.jpg" />
+          <img src="\mushHabitat.jpg" alt='mushroom habitat '/>
           <p>
           <h3>
           Computer Vision and Machine Learning to build an Advanced Mushroom Habitat  

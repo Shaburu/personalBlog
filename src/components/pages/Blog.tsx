@@ -6,6 +6,7 @@ export const Blog = () => {
 
 <div className="blogBodyTSX">
 <h1>BLOGS</h1>
+<br/>
 <div className="content">
     
         <Link to="/blog/computervision">
@@ -25,28 +26,24 @@ export const Blog = () => {
           <img src="\face.gif" />
           <p>
           <h3> Augmented Reality Development and Face Tracking using SparkAR and JavaScript!</h3>  
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+        I've created several Filters some that let's you track a 3D object 
+        onto a plane in AR, some that take the runtime of the application and make a little game
+        One such is a cat filter that was accepted by Instagram and has over 13Million impressions
+        
+        </p>
+          </div>
         </Link>
 
         
         <Link to="/blog">
         <div>
-          <img src="\face.gif" />
+          <img src="\mush.gif" />
           <p>
-          <h3> Project</h3>  
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <h3> Place Holder hai</h3>  
+          andi mandi sandi ignore kardo warna! sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         </Link>
         
-        <Link to="/blog">
-        <div>
-          <img src="\face.gif" />
-          <p>
-          <h3> Project</h3>  
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        </Link>
        
         
   </div>

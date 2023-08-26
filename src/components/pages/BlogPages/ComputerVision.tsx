@@ -16,9 +16,9 @@ export const ComputerVision = () => {
        </div>
        <h3>TL;DR</h3>
        
-       <img className='contentImg' src='\mind1.png'/>
-       <img className='contentImg' src='\mind2.png'/>
-       <img className='contentImg' src='\mind3.png'/>
+       <img className='contentImg' src='\mind1.png' alt='Why Mushrooms are the super food'/>
+       <img className='contentImg' src='\mind2.png' alt='Flow Chart/mind Map of How the data is being handled and the discrimination basis'/>
+       <img className='contentImg' src='\mind3.png'alt='Schematics of the NASA Plant Chamber'/>
        
       <p>
         
