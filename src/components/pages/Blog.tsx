@@ -8,7 +8,7 @@ export const Blog = () => {
 <h1>BLOGS</h1>
 <div className="content">
     
-        <Link to="/blog">
+        <Link to="/blog/computervision">
         <div>
           <img src="\mushHabitat.jpg" />
           <p>

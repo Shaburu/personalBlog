@@ -1,4 +1,5 @@
 import { useState } from "react";
+import {Link} from "react-router-dom";
 
 export const Mushroom = () => {
   const [isAgarShown, setIsAgarShown] = useState(false);
@@ -25,6 +26,8 @@ export const Mushroom = () => {
 
   return (
     <div className="mushroomBody">    
+    <h1>Over View of the Project can be read <Link to='/blog/computervision' >Here</Link></h1>
+    <br/>
     <h2>Read Before Submission</h2>
     <b>Image Clarity:</b> Ensure that the images you submit are of high clarity and resolution. Clear and well-lit images will help improve the accuracy of the machine learning model.
     <br/> <br/>

@@ -62,6 +62,10 @@
 
 }
 
+.message>h1{
+  color: var(--malware);
+}
+
 
 .item1 { grid-area: menu;
     text-align: justify;
