@@ -374,12 +374,22 @@ a:hover {
 }
 
 .mushroomButton > button{
+  color: var(--aquamarine);
   display: flex;
   justify-content: center;
-  padding: 1em;
+  padding: 0.5em;
   font-size: large;
-  border: none;
+  border: 2px solid var(--aquamarine);
   border-radius: 5px;
+  background-color: var(--nodelighter);
+  box-shadow: 3px 3px  var(--aquamarine);
+}
+
+button:hover{
+  cursor: pointer;
+  transform: translateX(3px);
+  transform: translateY(3px);
+    box-shadow: none;
 }
 
 .projects{
