@@ -196,18 +196,7 @@
   height: 100%;
 }
 
-@media (width <= 768px) {
-  .cleo > a >img{ 
-    width: 100%;
-    max-width: 7rem;
-    max-height: 14rem;
-  }
-  .cleo { 
-    display: flex;
-    align-items: center;
-  }
-  
-}
+
 .cleoWord { 
 grid-area: footer;
 font-size: 15px;
@@ -251,24 +240,7 @@ h1{
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-@media (max-width:520px) {
-  
-.blogBody{position: relative;
-  min-height: calc(100vh - var(--header-height) - var(--footer-height));
-  max-width: calc(var(--main-width) + var(--gap) * 2);
-  margin: auto;
-  padding: var(--gap);
-}
 
-h1{
-  font-size: 40px;
-}
-
-.message{
-  font-size: 25px;
-}
-
-}
   
 
 .code-style {
@@ -483,6 +455,29 @@ a:hover {
   cursor: pointer;
 }
 
+@media (max-width:520px) {
+  
+  .blogBody{position: relative;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height));
+    max-width: calc(var(--main-width) + var(--gap) * 2);
+    margin: auto;
+    padding: var(--gap);
+  }
+  
+  h1{
+    font-size: 40px;
+  }
+  
+  .message{
+    font-size: 25px;
+  }
+  
+  .blogBodyContent >img{
+     max-width: var(--content-gap);
+    }
+    
+  }
+
 @media (width >768px) {
   .content div{
     height: 7rem;
@@ -506,4 +501,39 @@ a:hover {
     max-width: 14rem;
     width: auto;
   }
+  .cleo > a >img{ 
+    width: 100%;
+    max-width: 7rem;
+    max-height: 14rem;
+  }
+  .cleo { 
+    display: flex;
+    align-items: center;
+  }
+
+}
+
+.progress{
+  position: fixed;
+  top: 0;
+  --progress: 0;
+   height: 6px;
+   width: var(--progress);
+   background-color: var(--aquamarine);
+}
+
+.blogBodyContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.blogBodyContent >h2{
+  text-align: center;
+  font-size: 25px;
+}
+
+.blogBodyContent >img{
+  max-width: calc(var(--main-width) + var(--gap) * 2);
 }

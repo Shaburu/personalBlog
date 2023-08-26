@@ -1,8 +1,9 @@
 
 import './App.css'
-import { Navbar } from "./components/Navbar.tsx";
+import { Navbar} from "./components/Navbar.tsx";
 import { Route, Routes } from "react-router-dom";
-import { Blog, Contact, Home, Projects, Mushroom } from "./components/pages";
+import { Blog, Contact, Home, Projects, Mushroom, ComputerVision } from "./components/pages";
+import { BlogBar} from "./components/BlogBar.tsx";
 
 function App() {
   const observer = new IntersectionObserver((entries) =>{
@@ -24,8 +25,10 @@ function App() {
     <div className='App'>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<><Home/><BlogBar/></>} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/computervision" element={<><ComputerVision/><BlogBar/></>}/>
+        {/* <Route path="/blog/computervision" element={<ComputerVision />} /> */}
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mushroom" element={<Mushroom />} />
