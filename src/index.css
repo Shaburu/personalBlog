@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap");
+
 @font-face {
   font-family: 'mario';
   src: url(/mario.ttf);
@@ -10,16 +13,18 @@
   font-family: 'futura';
   src: url(/futura.ttf);
 }
+
+
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "DM Mono", monospace;
   line-height: 1.5;
   font-weight: 400;
-
+  
+  background-color: var(--node);
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-  /* THIS MAKES THE WHOLE BACKGROUND probably breaking due to blogbody */
-  background-color: var(--node);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -264,6 +269,9 @@ hr{
   max-width: calc(var(--main-width) + var(--gap) * 2);
   margin: auto;
   padding: var(--gap);
+    /* THIS MAKES THE WHOLE BACKGROUND probably breaking due to blogbody */
+    background-color: var(--node);
+
 }
 
 h1{
