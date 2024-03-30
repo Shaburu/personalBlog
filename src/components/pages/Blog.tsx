@@ -8,7 +8,20 @@ export const Blog = () => {
 <h1>BLOGS</h1>
 <br/>
 <div className="content">
-    
+        <Link to="/blog/gsoc2024">
+        <div>
+          <img src="\Gsocpng.png" alt='GSoC 2024'/>
+          <p>
+          <h3>
+          My GSoC 2024 Contribution! (COMING SOON)
+          </h3>
+          I am applying as a GSoC student this year. I am writing this blog when the GSoC student application period is about to begin. 
+          This blog will cover the journey of applying for the GSoc organization and the challenges I faced during it and how I tackled them.
+          I have handwritten this section of my website rather than using ChatGPT to show my commitment and ingenuity in crafting a personalized touch for my audience.
+          </p>
+        </div>
+        </Link>
+
         <Link to="/blog/computervision">
         <div>
           <img src="\mushHabitat.jpg" />
@@ -35,11 +48,11 @@ export const Blog = () => {
         </Link>
 
         
-        <Link to="/blog">
+        <Link to="https://github.com/Shaburu/r3f-vite-starter#readme">
         <div>
-          <img src="\mush.gif" />
+          <img src="\cleopatra.png" />
           <p>
-          <h3> Place Holder hai</h3>  
+          <h3> Cleopatra - your AI Internet Shopper</h3>  
           andi mandi sandi ignore kardo warna! sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
         </Link>

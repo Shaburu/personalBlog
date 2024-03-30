@@ -10,24 +10,23 @@ export const Home = () => {
     IoTs & Fullstack WebApps.
    <img src='/melt.png' alt="Melting Face on Apple iOS 16.4" width="32" height="32" />
    </h1>
-      
+      <br></br>
       <div className="message">
         🐷 Check out my <Link className="message" to="/blog"> Blogs </Link>
         for in-depth analysis of the
-        <Link to="/projects" className="message"> Project's </Link>
+        <Link to="/projects" className="message"> Projects </Link>
         i build! Currently working with GANs, LLMs, NLPs, OpenCV and Three Js.
       </div>
+      <br></br>
       <div className="paraThree">
         <div className="item1">
-        Altough this might seem random but the UX is designed such that
-        you read heading first then the pig then the tech stack and finally this.
-        aka <b>Joe Sugarman's Slippery Slope.</b> 
-        Below are my Projects and lastly my links and stuff. 
-        I one day wish to Expand the human society to Type V Civilization
-        on the Kardashev Scale. Till then i will work on NeRFs, Agri-Tech, ML and OpenCV
-        also a lot of stupid projects along the way! like my Annoyinator&#8482; (coming soon)
-        which let's you sign up any email to 1287 Newsletters 
-        <sup>  &#9834;doofenshmirtz evil incorporated&#9835;</sup>
+          <h3>Hey I'm Sarthak Chowdhary aka Shaburu&#8482;</h3> <br></br>
+        Im a Final Year Student Pursuing my B.Tech in ECE Engineering from VJTI,Mumbai and have been building apps since the 6th Grade
+        I have handwritten this section of my website rather than using ChatGPT to show my commitment and ingenuity in crafting a personalized touch for my audience.
+        I love building products be it IoT Devices, Games, Interactive Face Filters or software.
+        <br></br>
+        <br></br>
+        Do Checkout my upcoming blog about my Journey in open source!
           {/* <div className="designStack">
             Design Stack
             <div className="designStackChild">
@@ -42,13 +41,15 @@ export const Home = () => {
         </div>
 
  <div className="item2">
-  <p>TECH STACK</p>
+  <p>Skillz</p>
   <div>Adobe Suite<br/></div>
+  <div>Blender<br/></div>
+  <div>C#<br/></div>
+  <div>Docker<br/></div>
   <div>MERN &#x269B;<br/></div>
   <div>OpenCV<br/></div>
   <div>Python<br/></div>
   <div>PyTorch&#10024;</div>
-  <div>Three.Js<br/></div>
   <div>Unity<br/></div>
  </div>
       </div>
@@ -62,7 +63,20 @@ export const Home = () => {
 <h2><Link to="/blog">Blogs</Link></h2>
 
 <div className="content">
-    
+        <Link to="/blog/gsoc2024">
+        <div>
+          <img src="\Gsocpng.png" alt='GSoC 2024'/>
+          <p>
+          <h3>
+          My GSoC 2024 Contribution! (COMING SOON)
+          </h3>
+          I am applying as a GSoC student this year.I am writing this blog when the GSoC student application period is about to begin. 
+          This blog will cover the journey of applying for the GSoc organization and the challenges I faced during it and how I tackled them. 
+          I see myself as a problem solver rather than a programmer. Im not constrained to any Language.
+                 </p>
+        </div>
+        </Link>
+
         <Link to="/blog/computervision">
         <div>
           <img src="\mushHabitat.jpg" alt='mushroom habitat '/>
@@ -90,6 +104,8 @@ export const Home = () => {
        
         
   </div>
+  <br></br>
+  <h2><Link to="/projects">Projects</Link></h2>
 
       <h3 className="cleoTit"><Link to="/mushroom" >Mushroom Chamber &#128279;</Link></h3>
       <div className="cleopatra">
@@ -107,6 +123,8 @@ export const Home = () => {
           {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScL5KAuP0R7oZApncHH1aanYFCK9dT5PTG2j7pawV1wrGUd6w/viewform?embedded=true" width="300px" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> */}
        </p>
       </div>
+      
+      
 {/* <h2><Link to="/blog" className="restBody">Blogssss</Link></h2>
 <br/>
 <h2><Link to="/contact" className="restBody">Contactss</Link></h2> */}
@@ -125,12 +143,10 @@ export const Home = () => {
         <h1>
           BE YOURSELF AND DO THINGS YOU WANT TO DO.
           <br/><br/>
-          DON'T BE A FAKE BITCH. HAVE FUN AND WORRY ABOUT HAPPINESS. ENJOY YOUR LIFE AND DON'T TAKE IT FOR GRANTED, DO AS MUCH AS YOU CAN BEFORE YOU DIE.
-<br/><br/>
-PUSSY, WHAT ARE YOU WAITING FOR? GET OUT THERE AND FALL DOWN SOME STAIRS!
 
         </h1>
       </div>
+      <footer className="footer">made with ♥ by Shaburu</footer>
 
 </div>
     );

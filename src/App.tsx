@@ -2,7 +2,7 @@
 import './App.css'
 import { Navbar} from "./components/Navbar.tsx";
 import { Route, Routes } from "react-router-dom";
-import { Blog, Contact, Home, Projects, Mushroom, ComputerVision } from "./components/pages";
+import { Blog, Contact, Home, Projects, Mushroom, ComputerVision, GSoc} from "./components/pages";
 import { BlogBar} from "./components/BlogBar.tsx";
 
 function App() {
@@ -32,6 +32,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mushroom" element={<Mushroom />} />
+        <Route path="/blog/gsoc2024" element={<GSoc />} />
+
       </Routes>
        
       </div>
