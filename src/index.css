@@ -71,8 +71,8 @@
   font-family: 'jakarta';
   font-size: 24px;
   text-align:justify;
-  line-height: 1;
-  margin: 0;
+  line-height: 1.2;
+  margin: 10px 0px;
 
 }
 
@@ -84,10 +84,12 @@
 .item1 { grid-area: menu;
     text-align: justify;
     margin-right: 1rem;
-    font-size:19px;
     color: var(--htbgrey);
-    font-size: 15px;
     border-bottom: 2px solid var(--malware);
+ }
+
+ .item1 h3{
+  font-family: 'Bowlby';
  }
 
  .designStack{
@@ -600,7 +602,7 @@ button:hover{
   }
   
   .message{
-    font-size: 25px;
+    font-size: 24px;
   }
   
   .contentImg{
@@ -686,4 +688,33 @@ button:hover{
 
 .footer{
   text-align: center;
+}
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+  /* Optional: Adjust padding or margins as needed */
+}
+
+.social-icons a {
+  color: #ffffff; /* Set the icon color */
+  font-size: 4em; /* Adjust the icon size */
+  transition: color 0.3s, transform 0.3s; /* Smooth hover effects */
+}
+
+.social-icons a:hover {
+  color: var(--htbgreen); /* Change the color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+/* Optional: Add media queries for responsiveness */
+
+@media (max-width: 600px) {
+  .social-icons a {
+    font-size: 1.5em; /* Adjust icon size for smaller screens */
+  }
 }

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaInstagram, FaTwitter, FaYoutube, FaGithub } from 'react-icons/fa';
 
 export const Home = () => {
   const words = [
@@ -33,24 +34,22 @@ export const Home = () => {
       <br></br>
       <div className="paraThree">
         <div className="item1">
-          <h3>INTRODUCTION&#8482;</h3> <br></br>
-        Im a Final Year Student Pursuing my B.Tech in ECE Engineering from VJTI,Mumbai and have been building apps since the 6th Grade
-        I have handwritten this section of my website rather than using ChatGPT to show my commitment and ingenuity in crafting a personalized touch for my audience.
-        I love building products be it IoT Devices, Games, Interactive Face Filters or software.
-        <br></br>
-        <br></br>
-        Do Checkout my upcoming blog about my Journey in open source!
-          {/* <div className="designStack">
-            Design Stack
-            <div className="designStackChild">
-            <div >PhotoShop</div>
-            <div >Premiere Pro</div>
-            <div >After Effects</div>
-            <div >Adobe</div>
-            <div >Adobe</div>
-         
+          <div className="social-icons">
+              <a href="https://www.instagram.com/shaburux/" target="_blank" rel="noopener noreferrer">
+                <FaInstagram /> 
+              </a>
+              <a href="https://twitter.com/ShaburuX" target="_blank" rel="noopener noreferrer">
+                <FaTwitter /> 
+              </a>
+              <a href="https://www.youtube.com/@Shaburu69/featured" target="_blank" rel="noopener noreferrer">
+                <FaYoutube /> 
+              </a>
+              <a href="https://www.github.com/shaburu/" target="_blank" rel="noopener noreferrer">
+                <FaGithub /> 
+              </a>
             </div>
-         </div> */}
+            <h3>Socials</h3> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto soluta voluptatem explicabo odit fuga esse velit ipsa veniam porro sed ipsam, ullam, necessitatibus culpa asperiores sequi quibusdam doloribus, accusamus minima?
         </div>
 
  <div className="item2">
