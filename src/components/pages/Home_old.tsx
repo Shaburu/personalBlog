@@ -1,39 +1,26 @@
 import { Link } from "react-router-dom";
 
 export const Home = () => {
-  const words = [
-    "Hey!", "🤪", "I", "work", "with", "AI,", "Python,", "and", "build",
-    "SaaS", "&", "Fullstack", "WebApps.", "🖥️"
-  ];
-
+  
   return (
-    <div className="blogBody">
-      <div>
-        <h1 className="animatedHeader">
-          {words.map((word, index) => (
-            <>
-              {index === 9 && <br key={`br-${index}`} />}
-              <span
-                key={index}
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                {word}
-              </span>{" "}
-            </>
-          ))}
-        </h1>
+  
+<div className="blogBody">
+<div > <h1>
+   Hey! I work with Computer Vision, AI and build
+    IoTs & Fullstack WebApps.
+   <img src='/melt.png' alt="Melting Face on Apple iOS 16.4" width="32" height="32" />
+   </h1>
       <br></br>
       <div className="message">
-        🐷Check out my <Link className="message" to="/blog"> Blogs </Link>
+        🐷 Check out my <Link className="message" to="/blog"> Blogs </Link>
         for in-depth analysis of the
         <Link to="/projects" className="message"> Projects </Link>
-        i build! 
-        
+        i build! Currently working with GANs, LLMs, NLPs, OpenCV and Three Js.
       </div>
       <br></br>
       <div className="paraThree">
         <div className="item1">
-          <h3>INTRODUCTION&#8482;</h3> <br></br>
+          <h3>Hey I'm Sarthak Chowdhary aka Shaburu&#8482;</h3> <br></br>
         Im a Final Year Student Pursuing my B.Tech in ECE Engineering from VJTI,Mumbai and have been building apps since the 6th Grade
         I have handwritten this section of my website rather than using ChatGPT to show my commitment and ingenuity in crafting a personalized touch for my audience.
         I love building products be it IoT Devices, Games, Interactive Face Filters or software.

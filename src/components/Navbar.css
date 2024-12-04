@@ -44,12 +44,12 @@ nav .title {
 }
 
 @keyframes titleDance {
-    0% {text-shadow: 2px 2px 0px  var(--nodeMoreLighter), -2px -2px 0px  var(--nodeMoreLighter) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
-    20%{text-shadow: 2px 2px 0px  var(--nodelighter), -2px -2px 0px  var(--nodelighter) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter);   }
-    40% {text-shadow: 2px 2px 0px  var(--nodeMoreLighter), -2px -2px 0px  var(--nodeMoreLighter) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
-    60%{text-shadow: 2px 2px 0px  var(--nodelighter), -2px -2px 0px  var(--nodelighter) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter);    }
-    80% {text-shadow: 2px 2px 0px  var(--nodeMoreLighter), -2px -2px 0px  var(--nodeMoreLighter) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
-    100%{text-shadow: 2px 2px 0px  var(--nodelighter), -2px -2px 0px  var(--nodelighter) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter); }
+    0% {text-shadow: 2px 2px 0px  var(--nodelighter), -2px -2px 0px  var(--nodelighter) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
+    20%{text-shadow: 2px 2px 0px  var(--htbgreen), -2px -2px 0px  var(--htbgreen) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter);   }
+    40% {text-shadow: 2px 2px 0px  var(--aquamarine), -2px -2px 0px  var(--aquamarine) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
+    60%{text-shadow: 2px 2px 0px  var(--htbgreen), -2px -2px 0px  var(--htbgreen) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter);    }
+    80% {text-shadow: 2px 2px 0px  var(--nodelighter), -2px -2px 0px  var(--nodelighter) , 2px -2px 0px  var(--nodeMoreLighter), -2px 2px 0px  var(--nodeMoreLighter);   }
+    100%{text-shadow: 2px 2px 0px  var(--purple), -2px -2px 0px  var(--purple) , 2px -2px 0px  var(--nodelighter), -2px 2px 0px  var(--nodelighter); }
 
 }
 
