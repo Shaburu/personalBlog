@@ -300,7 +300,7 @@
 .cleoTit >a { 
   color: #ffaf00;
   font-size: 25px;
-  font-family: 'valo';
+  font-family: 'jakarta';
 }
 
 
@@ -401,14 +401,14 @@ a:hover {
 }
 
 .contactLinks > a{
-    font-family: 'valo';
+    font-family: 'jakarta';
 }
 
 .contactLinksHome > a{
-  font-family: 'valo';
+  font-family: 'jakarta';
 }
 .restBody>h2>a{
-  font-family: 'valo';
+  font-family: 'jakarta';
 }
 .restBody>h2{
   text-align: center;

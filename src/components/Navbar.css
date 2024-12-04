@@ -31,7 +31,7 @@ nav {
     max-width: calc(var(--main-width) + var(--gap) * 2);
     margin-top: 10px;
     margin: auto;
-    padding: 0px var(--gap);
+    padding: 10px var(--gap);
 }
 
 nav .title {
@@ -63,8 +63,9 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    font-family: 'valo';
+    font-family: 'jakarta';
     font-size: large;
+    font-weight: bolder;
     text-decoration: none;
     color: var(--htbgreen);
     padding: 0.5rem;
